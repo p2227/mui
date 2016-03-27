@@ -403,6 +403,10 @@ var mui = (function(document, undefined) {
 		});
 	}
 
+	if (module && module.exports) {
+		module.export = $;
+	}
+
 	return $;
 })(document);
 //window.mui = mui;
